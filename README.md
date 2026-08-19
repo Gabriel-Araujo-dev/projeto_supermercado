@@ -39,11 +39,32 @@ Esses resultados demonstram como técnicas de estatística descritiva e visualiz
 - Plotly
 - Jupyter Notebook
 
-## 📂 Estrutura do projeto
+## 📊 Visualizações
 
+### Distribuição de preços - Categoria Lácteos (Boxplot)
+![Boxplot - Categoria Lácteos](imagens/boxplot_lacteos.png)
+
+A categoria **lácteos**, que apresentou o maior desvio padrão, mostra forte concentração de preços em valores baixos, com diversos outliers acima do limite superior.
+
+### Média de desconto por categoria
+![Gráfico de barras - Média de desconto por categoria](imagens/grafico_barras_desconto.png)
+
+A categoria **congelados** se destaca com a maior média de desconto, seguida por **belleza-y-cuidado-personal**.
+
+### Desconto por categoria e marca (visualização interativa)
+![Treemap - Desconto por categoria e marca](imagens/treemap_desconto_categoria_marca.png)
+
+Treemap interativo relacionando categorias, marcas e a média de desconto aplicada.
+
+## 📂 Estrutura do projeto
 ```text
 projeto-supermercado/
 │
 ├── projeto_supermercado.ipynb
 ├── MODULO7_PROJETOFINAL_BASE_SUPERMERCADO.csv
 ├── README.md
+└── imagens/
+    ├── boxplot_lacteos.png
+    ├── grafico_barras_desconto.png
+    └── treemap_desconto_categoria_marca.png
+```
